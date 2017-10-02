@@ -333,6 +333,7 @@ plt.legend(years, ncol=3, loc=0)
 
 
     <matplotlib.legend.Legend at 0xbacc0f0>
+    
 ![png](../figures/Parking_Tickets/output_25_1.png)
 
 ```python
