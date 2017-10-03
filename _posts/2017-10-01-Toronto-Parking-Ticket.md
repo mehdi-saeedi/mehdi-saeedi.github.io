@@ -3,7 +3,10 @@ layout: single
 title:  "Analysis of Toronto Parking Ticket Datasets"
 date:   2017-10-01 
 excerpt: Parking ticket, Toronto, Python
-tags: data analysis, Toronto parking tickets
+tags: 
+  - data analysis
+  - parking tickets
+  - Toronto
 ---
 
 ## Analysis of Toronto Parking Ticket Datasets
