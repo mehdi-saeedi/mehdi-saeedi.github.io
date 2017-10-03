@@ -1,20 +1,18 @@
 ## Analysis of Toronto Parking Ticket Datasets
 
-Revenue Services (Utility Billing, Meter Services and Parking Tags Section) and Toronto Open Data Team published 2016 Toronto Parking Ticket Dataset on March 2017. The dataset is published annually and right now there are datasets for years between 2008 and 2016. More than 2 million parking tickets are issued annually each year across the City of Toronto by Toronto Police Services (TPS) personnel as well as persons certified and authorized to issue tickets by TPS. Complete records only provided and incomplete records in the City database are not included in the data set. Toronto Open Data Team reported 
+Revenue Services (Utility Billing, Meter Services and Parking Tags Section) and Open Data Team published the 2016 Toronto Parking Ticket Dataset on March 2017. The dataset is published annually and right now there are datasets for years between (including) 2008 and 2016. More than 2 million parking tickets are issued annually each year across the City of Toronto by Toronto Police Services (TPS) personnel as well as certified and authorized persons. Only complete records are provided and incomplete records in the City database are dropped. Toronto Open Data Team reported 
 
 > "the volume of incomplete records relative to the overall volume is low and therefore presents insignificant impact to trend analysis."
 
-##### Datasets can be accessed here:
-
-https://www1.toronto.ca/wps/portal/contentonly?vgnextoid=ca20256c54ea4310VgnVCM1000003dd60f89RCRD
+**Datasets can be accessed [here](https://www1.toronto.ca/wps/portal/contentonly?vgnextoid=ca20256c54ea4310VgnVCM1000003dd60f89RCRD)**
 
 The goal of this analysis is to reveal more information about the Toronto Parking Tickets. Some interesting questions are:
 
 1. How many tickets have been issued over the last few years? How much are parking ticket revenue?
-2. What's the distribution of revenue/total number of tickets per day/month/quarter/year?
-3. What's the most common infraction types? Is there any relationship between infraction type and day/month and/or the streets that the infraction happened?
+2. What's the distribution of revenue/total number of tickets per day/month/quarter/year and are these distributions predictable? What can be learned from the distributions? 
+3. What are the most common infraction types? Is there any relationship between infraction type and day/month and/or the streets that the infraction happened?
 
-Here, we use Python to analyze the datasets.
+Here, we use Python to analyze the datasets with the following imports.
 
 
 ```python
@@ -36,7 +34,8 @@ import numpy as np
 - LOCATION4   Street address (optional)
 - PROVINCE    Province or state code of vehicle license plate
 
-##### We do not use the following table here, but LOCATION1 is coded as below:
+**We do not use the following table here, but LOCATION1 is coded as below:**
+
 - Proximity Code Table
 - PROXIMITY CODE  DESCRIPTION
 - AT  At
@@ -142,7 +141,7 @@ def processTicketDS(directory, dataSet, num_of_dataset):
     writer.save()
 ```
 
-For 2014, 2015, and 2016 several files are provided by Toronto Open Data Team. We need to merge them here.
+For 2014, 2015, and 2016 several files are provided by Toronto Open Data Team. We merge them here.
 
 
 ```python
@@ -333,7 +332,7 @@ plt.legend(years, ncol=3, loc=0)
 
 
     <matplotlib.legend.Legend at 0xbacc0f0>
-    
+
 ![png](../figures/Parking_Tickets/output_25_1.png)
 
 ```python
