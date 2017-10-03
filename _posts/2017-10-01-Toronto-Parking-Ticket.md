@@ -1,13 +1,10 @@
 ## Analysis of Toronto Parking Ticket Datasets
 
-Revenue Services (Utility Billing, Meter Services and Parking Tags Section) and Open Data Team published the 2016 Toronto Parking Ticket Dataset on March 2017. The dataset is published annually and right now there are datasets for years between (including) 2008 and 2016. More than 2 million parking tickets are issued annually each year across the City of Toronto by Toronto Police Services (TPS) personnel as well as certified and authorized persons. Only complete records are provided and incomplete records in the City database are dropped. Toronto Open Data Team reported 
+Revenue Services (Utility Billing, Meter Services and Parking Tags Section) and Open Data Team published the 2016 Toronto Parking Ticket Dataset on March 2017. The dataset is published annually and right now there are datasets for years between (including) 2008 and 2016. More than 2 million parking tickets are issued annually each year across the City of Toronto by Toronto Police Services (TPS) personnel as well as certified and authorized persons. Only complete records are provided and incomplete records in the City database are dropped. Toronto Open Data Team reported:
 
 > "the volume of incomplete records relative to the overall volume is low and therefore presents insignificant impact to trend analysis."
 
 **Datasets can be accessed [here](https://www1.toronto.ca/wps/portal/contentonly?vgnextoid=ca20256c54ea4310VgnVCM1000003dd60f89RCRD)**
-=======
-##### Datasets can be accessed [here](https://www1.toronto.ca/wps/portal/contentonly?vgnextoid=ca20256c54ea4310VgnVCM1000003dd60f89RCRD)
->>>>>>> b3ad4789871eb98cbc951e3f610f5ca1a644e16d
 
 The goal of this analysis is to reveal more information about the Toronto Parking Tickets. Some interesting questions are:
 
@@ -24,7 +21,8 @@ import os # for files and directories
 import numpy as np
 ```
 
-##### Dataset format is as below:
+**Dataset format is as below:**
+
 - TAG_NUMBER_MASKED   First three (3) characters masked with asterisks
 - DATE_OF_INFRACTION  Date the infraction occurred in YYYYMMDD format
 - INFRACTION_CODE Applicable Infraction code (numeric)
@@ -145,9 +143,6 @@ def processTicketDS(directory, dataSet, num_of_dataset):
 ```
 
 For 2014, 2015, and 2016 several files are provided by Toronto Open Data Team. We merge them here.
-=======
-For 2014, 2015, and 2016 several files are provided by Toronto Open Data Team. We merge them here to construct a single dataset.
->>>>>>> b3ad4789871eb98cbc951e3f610f5ca1a644e16d
 
 
 ```python
@@ -574,6 +569,6 @@ plt.suptitle('Streets with the largest total fine for years between 2008 and 201
 
 ![png](../figures/Parking_Tickets/output_37_1.png)
 
-The code used for this document can be found [here](https://github.com/mehdi-saeedi/Data_Analysis_Py/blob/master/Toronto_Parking_Tickets.ipynb)Almost all of the above hot spots include schools, hospitals, churches and malls. For examples, Sunnybrook Health Sciences Centre is located at *2075 Bayview Ave* and Newnham Campus of Seneca College is located at *1750 Finch Avenue East*. 
+Almost all of the above hot spots include schools, hospitals, churches and malls. For examples, Sunnybrook Health Sciences Centre is located at *2075 Bayview Ave* and Newnham Campus of Seneca College is located at *1750 Finch Avenue East*. 
 
 The code used for this document can be found [here](https://github.com/mehdi-saeedi/Data_Analysis_Py/blob/master/Toronto_Parking_Tickets.ipynb). Questions and feedbacks are welcome. 
