@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Analysis of Toronto Parking Ticket Datasets"
+date:   2017-10-01 
+categories: Python Data Analysis
+---
+
 ## Analysis of Toronto Parking Ticket Datasets
 
 Revenue Services (Utility Billing, Meter Services and Parking Tags Section) and Open Data Team published the 2016 Toronto Parking Ticket Dataset on March 2017. The dataset is published annually and right now there are datasets for years between (including) 2008 and 2016. More than 2 million parking tickets are issued annually each year across the City of Toronto by Toronto Police Services (TPS) personnel as well as certified and authorized persons. Only complete records are provided and incomplete records in the City database are dropped. Toronto Open Data Team reported:
