@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title:  "Analysis of Toronto Parking Ticket Datasets"
 date:   2017-10-01 
 excerpt: Parking ticket, Toronto, Python
