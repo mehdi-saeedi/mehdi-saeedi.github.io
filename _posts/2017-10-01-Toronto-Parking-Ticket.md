@@ -5,6 +5,9 @@ Revenue Services (Utility Billing, Meter Services and Parking Tags Section) and 
 > "the volume of incomplete records relative to the overall volume is low and therefore presents insignificant impact to trend analysis."
 
 **Datasets can be accessed [here](https://www1.toronto.ca/wps/portal/contentonly?vgnextoid=ca20256c54ea4310VgnVCM1000003dd60f89RCRD)**
+=======
+##### Datasets can be accessed [here](https://www1.toronto.ca/wps/portal/contentonly?vgnextoid=ca20256c54ea4310VgnVCM1000003dd60f89RCRD)
+>>>>>>> b3ad4789871eb98cbc951e3f610f5ca1a644e16d
 
 The goal of this analysis is to reveal more information about the Toronto Parking Tickets. Some interesting questions are:
 
@@ -142,6 +145,9 @@ def processTicketDS(directory, dataSet, num_of_dataset):
 ```
 
 For 2014, 2015, and 2016 several files are provided by Toronto Open Data Team. We merge them here.
+=======
+For 2014, 2015, and 2016 several files are provided by Toronto Open Data Team. We merge them here to construct a single dataset.
+>>>>>>> b3ad4789871eb98cbc951e3f610f5ca1a644e16d
 
 
 ```python
@@ -538,7 +544,6 @@ for i in range(0, len(tickets)):
 
 
 
-Finally, we can find streets with the largest total fines for years between 2008 and 2016
 
 
 ```python
@@ -569,4 +574,6 @@ plt.suptitle('Streets with the largest total fine for years between 2008 and 201
 
 ![png](../figures/Parking_Tickets/output_37_1.png)
 
-The code used for this document can be found [here](https://github.com/mehdi-saeedi/Data_Analysis_Py/blob/master/Toronto_Parking_Tickets.ipynb)
+The code used for this document can be found [here](https://github.com/mehdi-saeedi/Data_Analysis_Py/blob/master/Toronto_Parking_Tickets.ipynb)Almost all of the above hot spots include schools, hospitals, churches and malls. For examples, Sunnybrook Health Sciences Centre is located at *2075 Bayview Ave* and Newnham Campus of Seneca College is located at *1750 Finch Avenue East*. 
+
+The code used for this document can be found [here](https://github.com/mehdi-saeedi/Data_Analysis_Py/blob/master/Toronto_Parking_Tickets.ipynb). Questions and feedbacks are welcome. 
