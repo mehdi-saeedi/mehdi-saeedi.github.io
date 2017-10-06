@@ -7,6 +7,7 @@ tags:
   - data analysis
   - parking tickets
   - Toronto
+comments: true  
 ---
 
 ## Analysis of Toronto Parking Ticket Datasets
