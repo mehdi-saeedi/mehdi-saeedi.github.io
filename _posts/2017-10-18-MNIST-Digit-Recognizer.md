@@ -6,7 +6,7 @@ excerpt: MNIST , Machine learning, Python
 tags: 
   - Machine learning
   - MNIST
-  - digit handwritten recognition
+  - digit recognition
 comments: true  
 ---
 The purpose of this notebook is to work on the famous MNIST dataset (see [here](https://en.wikipedia.org/wiki/MNIST_database#Dataset)) for digit recognition. I'm going to use Keras library in Python for the convolutional neural network. 
