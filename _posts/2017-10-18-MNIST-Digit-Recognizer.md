@@ -2,7 +2,7 @@
 layout: single
 title:  "Identify digits with Convolutional Neural Network"
 date:   2017-10-18 
-excerpt: MNIST , Machine learning, Python
+excerpt: convolutional neural network, Keras, Python
 tags: 
   - CNN
   - MNIST
