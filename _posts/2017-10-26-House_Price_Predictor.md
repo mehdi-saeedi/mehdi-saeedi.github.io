@@ -52,7 +52,7 @@ sns.heatmap(train_input.corr(), mask=mask, cmap=cmap, vmax=.3, center=0,
 
 
 
-![png](../figures/house_price_predictor/output_4_1.png)
+![png](../figures/House_Price_Predictor/output_4_1.png)
 
 
 ### Removing outliers
@@ -70,7 +70,7 @@ plt.tight_layout()
 ```
 
 
-![png](../figures/house_price_predictor/output_6_0.png)
+![png](../figures/House_Price_Predictor/output_6_0.png)
 
 
 
@@ -113,7 +113,7 @@ plt.tight_layout()
 ```
 
 
-![png](../figures/house_price_predictor/output_9_0.png)
+![png](../figures/House_Price_Predictor/output_9_0.png)
 
 
 ### Rescaling target values
