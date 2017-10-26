@@ -4,9 +4,9 @@ title:  "Identify digits with Convolutional Neural Network"
 date:   2017-10-18 
 excerpt: MNIST , Machine learning, Python
 tags: 
-  - Machine learning
+  - CNN
   - MNIST
-  - digit recognition
+  - Keras
 comments: true  
 ---
 The purpose of this notebook is to work on the famous MNIST dataset (see [here](https://en.wikipedia.org/wiki/MNIST_database#Dataset)) for digit recognition. I'm going to use Keras library in Python for the convolutional neural network. 
